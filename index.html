@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopCart | Modern Ecommerce</title>
+    <meta
+      name="description"
+      content="ShopCart offers modern fashion, accessories, home essentials, and daily deals for every lifestyle."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <p>Free shipping on orders over $75</p>
+        <p>New season sale up to 50% off</p>
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <div class="container nav-inner">
+        <div class="brand-wrap">
+          <span class="brand-mark">S</span>
+          <span class="brand-name">ShopCart</span>
+        </div>
+
+        <div class="nav-links">
+          <a href="#">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Accessories</a>
+          <a href="#">Blog</a>
+        </div>
+
+        <div class="nav-actions">
+          <button class="icon-btn" aria-label="Search">⌕</button>
+          <button class="icon-btn" aria-label="Account">◌</button>
+          <button class="cart-btn">Cart <span>(2)</span></button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">New Collection</p>
+            <h1>Upgrade your everyday style.</h1>
+            <p class="lead">
+              Discover premium essentials, versatile outfits, and must-have accessories designed
+              to keep you moving in confidence.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#products" class="btn btn-primary">Shop Now</a>
+              <a href="#categories" class="btn btn-secondary">View Deals</a>
+            </div>
+
+            <div class="hero-stats">
+              <div>
+                <strong>50K+</strong>
+                <span>Happy shoppers</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>Customer rating</span>
+              </div>
+              <div>
+                <strong>1 Day</strong>
+                <span>Fast delivery</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Featured product showcase">
+            <div class="floating-card card-small">
+              <span>Trending</span>
+              <strong>Leather Tote</strong>
+              <p>$89.00</p>
+            </div>
+
+            <div class="product-showcase">
+              <div class="product-badge">Best Seller</div>
+              <img
+                src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80"
+                alt="Fashion model in neutral outfit"
+              />
+            </div>
+
+            <div class="floating-card card-large">
+              <div class="mini-rating">
+                <span>★★★★★</span>
+                <small>4.9 rating</small>
+              </div>
+              <div class="mini-progress">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo-strip">
+        <div class="container promo-grid">
+          <div class="promo-item">
+            <span class="promo-icon">🚚</span>
+            <div>
+              <h3>Fast Delivery</h3>
+              <p>Shipped within 24 hours</p>
+            </div>
+          </div>
+
+          <div class="promo-item">
+            <span class="promo-icon">🛡️</span>
+            <div>
+              <h3>Secure Payment</h3>
+              <p>Protected checkout</p>
+            </div>
+          </div>
+
+          <div class="promo-item">
+            <span class="promo-icon">↩</span>
+            <div>
+              <h3>Easy Returns</h3>
+              <p>30-day money back</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories section" id="categories">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Popular Categories</p>
+              <h2>Find what you love</h2>
+            </div>
+            <a href="#" class="text-link">View all categories</a>
+          </div>
+
+          <div class="category-grid">
+            <article class="category-item category-one">
+              <div>
+                <p>Women</p>
+                <span>320 items</span>
+              </div>
+            </article>
+
+            <article class="category-item category-two">
+              <div>
+                <p>Men</p>
+                <span>260 items</span>
+              </div>
+            </article>
+
+            <article class="category-item category-three">
+              <div>
+                <p>Accessories</p>
+                <span>180 items</span>
+              </div>
+            </article>
+
+            <article class="category-item category-four">
+              <div>
+                <p>Home</p>
+                <span>210 items</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-products section" id="products">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Best Sellers</p>
+              <h2>Featured Products</h2>
+            </div>
+            <div class="filters">
+              <button class="filter active">All</button>
+              <button class="filter">New Arrivals</button>
+              <button class="filter">Trending</button>
+            </div>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-image product-one">
+                <span class="sale-tag">-30%</span>
+              </div>
+              <div class="product-info">
+                <div class="product-meta">
+                  <span>Women</span>
+                  <span>⭐ 4.8</span>
+                </div>
+                <h3>Classic Denim Jacket</h3>
+                <div class="product-price">
+                  <strong>$86.00</strong>
+                  <span>$120.00</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image product-two">
+                <span class="sale-tag">Hot</span>
+              </div>
+              <div class="product-info">
+                <div class="product-meta">
+                  <span>Accessories</span>
+                  <span>⭐ 4.9</span>
+                </div>
+                <h3>Minimal Leather Bag</h3>
+                <div class="product-price">
+                  <strong>$74.00</strong>
+                  <span>$96.00</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image product-three">
+                <span class="sale-tag">New</span>
+              </div>
+              <div class="product-info">
+                <div class="product-meta">
+                  <span>Men</span>
+                  <span>⭐ 4.7</span>
+                </div>
+                <h3>Urban Utility Hoodie</h3>
+                <div class="product-price">
+                  <strong>$63.00</strong>
+                  <span>$80.00</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image product-four">
+                <span class="sale-tag">Sale</span>
+              </div>
+              <div class="product-info">
+                <div class="product-meta">
+                  <span>Home</span>
+                  <span>⭐ 5.0</span>
+                </div>
+                <h3>Soft Knit Throw</h3>
+                <div class="product-price">
+                  <strong>$49.00</strong>
+                  <span>$65.00</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="offer section">
+        <div class="container offer-inner">
+          <div class="offer-copy">
+            <p class="eyebrow">Weekend Deal</p>
+            <h2>Save up to 50% on selected essentials.</h2>
+            <p>
+              Refresh your wardrobe and home with elevated basics, premium textures, and everyday
+              staples for less.
+            </p>
+            <a href="#" class="btn btn-primary">Shop Sale</a>
+          </div>
+
+          <div class="offer-timer" aria-label="Sale countdown">
+            <div>
+              <strong>12</strong>
+              <span>Days</span>
+            </div>
+            <div>
+              <strong>08</strong>
+              <span>Hours</span>
+            </div>
+            <div>
+              <strong>34</strong>
+              <span>Minutes</span>
+            </div>
+            <div>
+              <strong>09</strong>
+              <span>Seconds</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section">
+        <div class="container services-grid">
+          <div class="service-card">
+            <span class="service-icon">💬</span>
+            <h3>24/7 Support</h3>
+            <p>Friendly experts ready to help anytime.</p>
+          </div>
+
+          <div class="service-card">
+            <span class="service-icon">🔄</span>
+            <h3>Easy Exchange</h3>
+            <p>Simple returns and effortless swaps.</p>
+          </div>
+
+          <div class="service-card">
+            <span class="service-icon">🎁</span>
+            <h3>Gift Cards</h3>
+            <p>Perfect for birthdays, events, and more.</p>
+          </div>
+
+          <div class="service-card">
+            <span class="service-icon">💳</span>
+            <h3>Secure Checkout</h3>
+            <p>Protected payment with trusted gateways.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews section">
+        <div class="container">
+          <div class="section-heading center-title">
+            <div>
+              <p class="eyebrow">Customer Love</p>
+              <h2>What shoppers are saying</h2>
+            </div>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “The quality is incredible and the fit feels premium. I’ve already ordered a second
+                piece.”
+              </p>
+              <div class="reviewer">
+                <strong>Aisha M.</strong>
+                <span>Verified Buyer</span>
+              </div>
+            </article>
+
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “Quick delivery, easy checkout, and the packaging looked very premium. Highly
+                recommended.”
+              </p>
+              <div class="reviewer">
+                <strong>Daniel K.</strong>
+                <span>Verified Buyer</span>
+              </div>
+            </article>
+
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “Everything feels thoughtful and modern. The style is clean, simple, and very me.”
+              </p>
+              <div class="reviewer">
+                <strong>Rosie L.</strong>
+                <span>Verified Buyer</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter section">
+        <div class="container newsletter-inner">
+          <div>
+            <p class="eyebrow">Stay in the loop</p>
+            <h2>Sign up for fresh arrivals and exclusive deals.</h2>
+          </div>
+
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" aria-label="Email address" />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand-wrap footer-brand">
+            <span class="brand-mark">S</span>
+            <span class="brand-name">ShopCart</span>
+          </div>
+          <p>
+            Modern essentials for everyday living and elevated personal style.
+          </p>
+        </div>
+
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#">New In</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Journal</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 ShopCart. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
